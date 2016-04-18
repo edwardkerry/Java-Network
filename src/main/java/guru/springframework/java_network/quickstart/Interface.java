@@ -5,16 +5,22 @@ import java.util.Scanner;
 
 public class Interface {
 
+    public User user;
+    public Menu menu;
+    public static boolean loop = true;
+
     public static void main(String[] args) {
         Interface inter=new Interface();
+        Menu menu=new Menu();
         inter.openingStatement();
         inter.initialOptions();
+        while(loop == true)
+            menu.showOptions();
+            inter.makeChoice();
     }
 
-    public String openingStatement() {
-        String welcome="You are standing in a social network\n";
-        out.print(welcome);
-        return welcome;
+    public void openingStatement() {
+        out.print("You are standing in a social network\n");
     }
 
     private void initialOptions() {
@@ -44,17 +50,37 @@ public class Interface {
     private void register(){
         out.print("What is your name?\n");
         String name = get_input();
-        User user = new User(name);
-        out.print("Welcome " + user.name);
-        mainOptions();
+        user = new User(name);
+        out.print("Welcome " + user.name +"\n");
     }
 
-    private void mainOptions(){
-        out.print("Please leave a message\n");
+    private void makeChoice() {
+        String choice = get_input();
+        if (choice.equals("POST")) {
+            postMessage();
+        }
+        if (choice.equals("VIEW")) {
+            viewMessages();
+        }
+        if (choice.equals("LEAVE")) {
+            quit();
+        }
     }
+
+    private void postMessage(){
+        out.print("Please leave a message\n");
+        String message = get_input();
+        user.post(message);
+    }
+
+    private void viewMessages(){
+       user.viewMessages();
+    }
+
 
     private void quit(){
         out.print("You flee the social network and return to real life.");
+        loop = false;
     }
 
 
@@ -63,5 +89,5 @@ public class Interface {
         String answer = input.next();
         return answer;
     }
-    
+
 }

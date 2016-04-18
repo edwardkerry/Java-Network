@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300b5bc1-598a-40ae-a060-d898c4f8f41b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Menu.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/guru/springframework/java_network/quickstart/Interface.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/guru/springframework/java_network/quickstart/User.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/java_network/quickstart/InterfaceTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/java_network/quickstart/UserTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java" afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java" />
     </list>
     <ignored path="java_network.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,21 +33,25 @@
     <favorites_list name="java_network" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.4193825">
       <split-first>
         <leaf>
-          <file leaf-file-name="Interface.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
+          <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Menu.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="293">
-                  <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1365#1366#0" expanded="true" />
-                    <element signature="e#1418#1419#0" expanded="true" />
-                    <element signature="e#1444#1445#0" expanded="true" />
-                    <element signature="e#1525#1526#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="210">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InterfaceTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -52,37 +59,12 @@
           <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-                  <folding>
-                    <element signature="e#200#201#0" expanded="true" />
-                    <element signature="e#232#233#0" expanded="true" />
-                    <element signature="e#271#272#0" expanded="true" />
-                    <element signature="e#313#314#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InterfaceTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state relative-caret-position="240">
+                  <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
+                    <element signature="e#305#306#0" expanded="true" />
+                    <element signature="e#347#348#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -92,14 +74,28 @@
       </split-first>
       <split-second>
         <leaf>
+          <file leaf-file-name="Interface.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-97">
+                  <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#542#543#0" expanded="true" />
+                    <element signature="e#609#610#0" expanded="true" />
+                    <element signature="e#1937#1938#0" expanded="true" />
+                    <element signature="e#1971#1972#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="UserTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="98">
-                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="-150">
+                  <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -111,8 +107,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -129,9 +125,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/App.java" />
         <option value="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/AppTest.java" />
+        <option value="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Menu.java" />
+        <option value="$PROJECT_DIR$/java_network.iml" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" />
         <option value="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java" />
-        <option value="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java" />
       </list>
     </option>
@@ -212,20 +210,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_network" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -259,14 +243,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quickstart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -277,7 +253,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
@@ -653,9 +629,9 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.All in java_network" />
         <item index="1" class="java.lang.String" itemvalue="Application.Interface" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.InterfaceTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.InterfaceTest.testOpeningStatement" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AppTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AppTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.InterfaceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.InterfaceTest.testOpeningStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -679,20 +655,20 @@
     <history-entry file="All_in_java_network - 2016.04.18 at 08h 58m 51s.xml">
       <configuration name="All in java_network" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InterfaceTest - 2016.04.17 at 17h 15m 31s.xml">
-      <configuration name="InterfaceTest" configurationId="JUnit" />
+    <history-entry file="All_in_java_network - 2016.04.18 at 09h 06m 05s.xml">
+      <configuration name="All in java_network" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InterfaceTest - 2016.04.17 at 17h 16m 04s.xml">
-      <configuration name="InterfaceTest" configurationId="JUnit" />
+    <history-entry file="All_in_java_network - 2016.04.18 at 09h 06m 30s.xml">
+      <configuration name="All in java_network" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InterfaceTest - 2016.04.17 at 17h 41m 35s.xml">
-      <configuration name="InterfaceTest" configurationId="JUnit" />
+    <history-entry file="All_in_java_network - 2016.04.18 at 09h 52m 48s.xml">
+      <configuration name="All in java_network" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InterfaceTest - 2016.04.17 at 17h 42m 10s.xml">
-      <configuration name="InterfaceTest" configurationId="JUnit" />
+    <history-entry file="All_in_java_network - 2016.04.18 at 09h 57m 02s.xml">
+      <configuration name="All in java_network" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InterfaceTest - 2016.04.17 at 17h 42m 58s.xml">
-      <configuration name="InterfaceTest" configurationId="JUnit" />
+    <history-entry file="AppTest - 2016.04.18 at 09h 52m 37s.xml">
+      <configuration name="AppTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="InterfaceTest - 2016.04.17 at 17h 43m 39s.xml">
       <configuration name="InterfaceTest" configurationId="JUnit" />
@@ -716,11 +692,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296876" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0890625" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -737,7 +713,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20243531" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -752,7 +728,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296876" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -765,7 +741,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -806,58 +782,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/java_network.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="240">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-97">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/UserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#232#233#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="65" column="4" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1418#1419#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-150">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
