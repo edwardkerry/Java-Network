@@ -1,21 +1,18 @@
 package guru.springframework.java_network.quickstart;
 
-import static java.lang.System.*;
+import java.util.*;
 
 public class User {
 
     public String name;
+    public ArrayList messages = new ArrayList();
 
     public User(String name) {
         this.name = name;
     }
 
-    public void register(){
-        out.print("User reached!" + name);
-    }
-
-    public void log_in() {
-        out.print("User reached!");
+    public void post(String message){
+        this.messages.add(message);
     }
 
 }

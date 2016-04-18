@@ -20,9 +20,11 @@ public class Interface {
     private void initialOptions() {
         out.print("To the NORTH you may LOG-IN\n");
         out.print("To the SOUTH you may EXIT\n");
-        if (get_input().equals("NORTH")) {
+        String ans = get_input();
+        if (ans.equals("NORTH")) {
             log_in();
-        } else if (get_input().equals("SOUTH")) {
+        }
+        if (ans.equals("SOUTH")) {
             quit();
         }
         else { initialOptions(); }
@@ -30,9 +32,11 @@ public class Interface {
 
      private void log_in(){
          out.print("You come across a security checkpoint. Are you a NEW or EXISTING user?\n");
-         if (get_input().equals("NEW")) {
+         String ans = get_input();
+         if (ans.equals("NEW")) {
              register();
-         } else if (get_input().equals("EXISTING")) {
+         }
+         if (ans.equals("EXISTING")) {
              log_in();
          }
     }
@@ -40,13 +44,17 @@ public class Interface {
     private void register(){
         out.print("What is your name?\n");
         String name = get_input();
-        User user = new User(name)
+        User user = new User(name);
         out.print("Welcome " + user.name);
+        mainOptions();
+    }
+
+    private void mainOptions(){
+        out.print("Please leave a message\n");
     }
 
     private void quit(){
-        String leave = "exit";
-        out.print(leave);;
+        out.print("You flee the social network and return to real life.");
     }
 
 
@@ -55,6 +63,5 @@ public class Interface {
         String answer = input.next();
         return answer;
     }
-
-
+    
 }
