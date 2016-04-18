@@ -14,9 +14,6 @@ public class Interface {
         Menu menu=new Menu();
         inter.openingStatement();
         inter.initialOptions();
-        while(loop == true)
-            menu.showOptions();
-            inter.makeChoice();
     }
 
     public void openingStatement() {
@@ -52,6 +49,14 @@ public class Interface {
         String name = get_input();
         user = new User(name);
         out.print("Welcome " + user.name +"\n");
+        optionLoop();
+    }
+
+    private void optionLoop(){
+        while(loop == true) {
+            menu.showOptions();
+            makeChoice();
+        }
     }
 
     private void makeChoice() {
