@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="300b5bc1-598a-40ae-a060-d898c4f8f41b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/guru/springframework/java_network/quickstart/Interface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/java_network/quickstart/InterfaceTest.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" afterPath="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" afterPath="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" />
     </list>
     <ignored path="java_network.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Interface.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Interface.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="105">
+              <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,12 +38,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/App.java" />
         <option value="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/guru/springframework/java_network/quickstart/InterfaceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java" />
       </list>
     </option>
@@ -779,21 +784,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/User.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/guru/springframework/java_network/quickstart/Interface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="105">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
